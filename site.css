@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+html {
+	background-color: orange;
+}
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #096562;
+}
+img {
+	width: 250px;
+}
+ul {
+	padding: 10px;
+}
+p {
+	padding: 20px;
+}
+.content {
+	width: 100%;
+}
+.inner {
+	width: 85%;
+	min-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+.gradient_green {
+	background: rgb(230,240,163); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(230,240,163,1) 0%, rgba(210,230,56,1) 40%, rgba(195,216,37,1) 55%, rgba(219,240,67,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(230,240,163,1)), color-stop(40%,rgba(210,230,56,1)), color-stop(55%,rgba(195,216,37,1)), color-stop(100%,rgba(219,240,67,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(230,240,163,1) 0%,rgba(210,230,56,1) 40%,rgba(195,216,37,1) 55%,rgba(219,240,67,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(230,240,163,1) 0%,rgba(210,230,56,1) 40%,rgba(195,216,37,1) 55%,rgba(219,240,67,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(230,240,163,1) 0%,rgba(210,230,56,1) 40%,rgba(195,216,37,1) 55%,rgba(219,240,67,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(230,240,163,1) 0%,rgba(210,230,56,1) 40%,rgba(195,216,37,1) 55%,rgba(219,240,67,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+}
+.round {
+	border-radius: 14px;
+}
+.center {
+	text-align: center;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.margin_top {
+	margin-top: 20px;
+}
+.margin_bot {
+	margin-bottom: 20px;
+}
+.max {
+	width: 100%;
+}
+.dark {
+	background-color: rgb(176,59,144);
+	color: orange;
+}
+#footer img {
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu {
+	height: 30px;
+	color: white;
+	padding-top: 8px;
+}
+#menu li {
+	display: inline;
+	font-size: 22px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+#menu a {
+	text-decoration: none;
+	color: black;
+}
+#wrapper {
+	background-image: url(pink.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#top {
+	height: 20px;
+}
